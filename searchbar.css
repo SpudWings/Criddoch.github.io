@@ -1,0 +1,85 @@
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 75%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #ddd;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 60px;
+  height: 36px;
+  border: 0px solid #000000;
+  background: none;
+  text-align: relative;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.searchbar {
+  width: 100%;
+  max-width: 700px;
+  background-color: rgba(255,255,255,255, 0.2) ;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 0px 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+}
+
+.searchbar input {
+  background: transparent;
+  flex: 1;
+  border: 20px;
+  outline: 5px;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #000000;
+
+}
+
+::placeholder{
+  color: #000000;
+}
+
+.searchbar button img{
+  width: 45px;
+
+}
+.searchbar button{
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 50px;
+  background: #5C7457;
+  cursor: pointer;
+}

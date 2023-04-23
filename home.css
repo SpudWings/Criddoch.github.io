@@ -1,0 +1,140 @@
+.navigation {
+ list-style: none;
+ margin: 0px 0px 0;
+ background: rgb(212, 180, 131);
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+}
+.navigation a {
+ text-decoration: none;
+ display: block;
+ padding: 1.5em;
+ color: white;
+ font-size: 25px;
+}
+.navigation a:hover {
+    background-color: rgb(175, 139, 85);
+}
+
+@media all and (max-width: 800px){
+.navigation {
+ justify-content:space-around;
+}
+}
+@media all and (max-width: 800px) {
+.navigation {
+ flex-flow: coloumn-wrap;
+ padding: 10;
+}
+}
+.navigation a {
+ text-align: center;
+ padding: 10px;
+ border-top: 1px solid rgba(200,200,200,0.3);
+ border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.navigation li:last-of-type a{
+ border-bottom: none;
+}
+
+.homescone {
+ position: relative;
+ padding: 10px;
+ left: 450px;
+ top: 100px;
+
+}
+
+.sconetxt {
+ position:relative;
+ font-size:32px;
+ padding: 0px;
+ left: 20px;
+ top: -110px;
+ font: bold;
+ color: white;
+
+}
+.img {
+   margin-left: 10px;
+   margin-top: 10px;
+   font-size: 20px;
+   
+}
+.text{
+   margin-left: 20px;
+   margin-top: 20px;
+   
+}
+.homecake {
+ position: relative;
+ padding: 10px;
+ left: 1000px;
+ top: -310px;
+
+}
+
+.caketxt {
+ position:relative;
+ font-size:32px;
+ padding: 0px;
+ left: 50px;
+ top: -110px;
+ font: bold;
+ 
+}
+.homecookie {
+ position: relative;
+ padding: 10px;
+ left: 200px;
+ top: -415px;
+
+}
+
+.cookietxt {
+ position:relative;
+ font-size:32px;
+ padding: 0px;
+ left: 20px;
+ top: -115px;
+ font: bold;
+ 
+}
+.homepastry {
+ position: relative;
+ padding: 10px;
+ left: 750px;
+ top: -825px;
+
+}
+
+.pastrytxt {
+ position:relative;
+ font-size:32px;
+ padding: 0px;
+ left: 20px;
+ top: -110px;
+ font: bold;
+ 
+}
+
+.homedessert {
+    position: relative;
+    padding: 10px;
+    left: 1300px;
+    top: -1232px;
+   
+   }
+   
+   .desserttxt {
+    position:relative;
+    font-size:32px;
+    padding: 0px;
+    left: 15px;
+    top: -110px;
+    font: bold;
+    
+   }
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>CR FOODS</title>
+ <style>
+ html * {
+	font-family: 'Times New Roman', Times, serif;
+ }
+ </style>
+ <link rel="stylesheet" href="home.css">
+
+ 
+
+ <div class="wrap">
+	<div class="search">
+        <form id="searchbox" action="" method="get" class="searchbar">
+		    <input type="text" class="type" id ="test" placeholder="Search...">
+		
+			<button type="search"><img src="Images\search.png" class="searchButton">
+			<i class="fas fa-search"></i>
+			</button>
+        </form>
+		<i class="fa fa-search"></i>
+		<link rel="stylesheet" href="searchbar.css">
+		<script>
+			const URL = "https://www.google.com/search?q="
+			async function searchAPI(){
+				const result =await fetch(URL);
+				result.json().then(data=>{
+					console.log(data);
+				})
+			}
+			searchAPI()
+		</script>	
+	</div>
+ </div>	
+	
+ <h1>CR FOODS</h1> 
+</head>
+
+<body style="background-color: #E4DFDA;">
+<ul class="navigation">
+ <li><a href="home.html">Home</a></li>
+ <li><a href="recipes.html">Recipes</a></li>
+ <li><a href="veganrecipes.html">Vegan Recipes</a></li>
+ <li><a href="healthtips.html">Health Tips</a></li>	
+ <li><a href="about.html">About</a></li>
+</ul>
+<div class="homescone">
+	<div  style="width:400px;height:250px;border:2px solid #000;"><a href="scones.html"><img src ="Images\scone.jpg"
+		style="padding:12px; width:90%;filter:drop-shadow(8px 8px 10px gray)"></a>	
+	</div>
+	<div class="sconetxt">
+		<a href="scones.html" style="text-decoration: none;-webkit-text-stroke: 2px black;"><h2>Scone Recipes</h2></a>
+	</div>
+</div>	
+
+<div class="homecake">
+	<div  style="width:400px;height:250px;border:2px solid #000;"><a href="cakes.html"><img src ="Images\cake.jpg"
+		style="padding:12px;height: 90%; width:90%;filter:drop-shadow(8px 8px 10px gray)"></a>	
+	</div>
+	<div class="caketxt">
+		<a href="scones.html" style="text-decoration: none;-webkit-text-stroke: 2px black;"><h2>Cake Recipes</h2></a>
+	</div>
+</div>	
+
+<div class="homecookie">
+	<div  style="width:400px;height:250px;border:2px solid #000;"><a href="cookie.html"><img src ="Images\cookie.jpg"
+		style="padding:12px;height: 90%; width:90%;filter:drop-shadow(8px 8px 10px gray)"></a>	
+	</div>
+	<div class="cookietxt">
+		<a href="cookie.html" style="text-decoration: none;-webkit-text-stroke: 2px black;"><h2>Cookie Recipes</h2></a>
+	</div>
+</div>
+
+<div class="homepastry">
+	<div  style="width:400px;height:250px;border:2px solid #000;"><a href="pastry.html"><img src ="Images\pastry.jpg"
+		style="padding:12px;height: 90%; width:90%;filter:drop-shadow(8px 8px 10px gray)"></a>	
+	</div>
+	<div class="pastrytxt">
+		<a href="pastry.html" style="text-decoration: none;-webkit-text-stroke: 2px black;"><h2>Pastry Recipes</h2></a>
+	</div>
+</div>
+
+<div class="homedessert">
+	<div  style="width:400px;height:250px;border:2px solid #000;"><a href="dessert.html"><img src ="Images\icecream.jpg"
+		style="padding:12px;height: 90%; width:95%;filter:drop-shadow(8px 8px 10px gray)"></a>	
+	</div>
+	<div class="pastrytxt">
+		<a href="pastry.html" style="text-decoration: none;-webkit-text-stroke: 2px black;"><h2>Dessert Recipes</h2></a>
+	</div>
+</div>
+		
+<style>
+h1 {
+    position: center;
+    font-size: 50px;
+    padding: 10px;	
+}
+h2{
+	color:white;
+	
+
+}
+
+</style>
+
+</body>
+</html>

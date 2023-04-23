@@ -1,0 +1,97 @@
+.navigation {
+ list-style: none;
+ margin:100px 0px 0;
+ background: rgb(212, 180, 131);
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+}
+.navigation a {
+ text-decoration: none;
+ display: block;
+ padding: 1.5em;
+ color: white;
+ font-size: 25px;
+}
+.navigation a:hover {
+    background-color: rgb(175, 139, 85);
+}
+
+@media all and (max-width: 800px){
+.navigation {
+ justify-content:space-around;
+}
+}
+@media all and (max-width: 800px) {
+.navigation {
+ flex-flow: coloumn-wrap;
+ padding: 10;
+}
+}
+.navigation a {
+ text-align: center;
+ padding: 10px;
+ border-top: 1px solid rgba(200,200,200,0.3);
+ border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.navigation li:last-of-type a{
+ border-bottom: none;
+}
+
+.scones {
+ position: relative;
+ font-size:60px;
+ padding: 10px;
+ left: 825px;
+
+}
+.fruitsconeimg {
+margin-left: 200px;
+margin-top: 10px;
+font-size: 20px;
+}
+
+.fruittext{
+    margin-left: 135px;
+    margin-top: -175px;
+    font-size: 20px;;
+}
+
+.gfsconeimg {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.gfsconetext{
+    margin-left: 135px;
+    margin-top: -170px;
+    font-size: 20px;
+}
+
+.cheesesconeimg {
+margin-left: 200px;
+margin-top: 75px;
+font-size: 20px;
+
+}
+.cheesesconetext{
+margin-left: 135px;
+margin-top: -175px;
+font-size : 20px;
+
+}
+
+
+.img {
+margin-left: 200px;
+margin-top: 75px;
+font-size: 20px;
+
+}
+.text{
+margin-left: 135px;
+margin-top: -175px;
+font-size: 20px;
+
+}
+
